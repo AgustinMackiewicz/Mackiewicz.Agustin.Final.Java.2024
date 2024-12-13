@@ -10,8 +10,8 @@ package mackiewicz.agustin.pkgfinal.java.pkg2024;
  */
 public enum RazaTabaxis {
     TabaxiTigre,
-    tabaxiLeopardo,
-    tabaxiJaguar,
-    tabaxiGuepardo,
-    tabaxiLeón
+    TabaxiLeopardo,
+    TabaxiJaguar,
+    TabaxiGuepardo,
+    TabaxiLeón
 }

@@ -8,7 +8,7 @@ package mackiewicz.agustin.pkgfinal.java.pkg2024;
  *
  * @author Usuario
  */
-public abstract class Personajes {
+public abstract class Personaje {
     public String nombrePersonaje;
     public int altura;
     public int puntosVida;
@@ -24,4 +24,13 @@ public abstract class Personajes {
     public void descansar(){
         System.out.println(nombrePersonaje + "esta descansando");
     }
+
+    public Personaje(String nombrePersonaje, int altura, int puntosVida) {
+        this.nombrePersonaje = nombrePersonaje;
+        this.altura = altura;
+        this.puntosVida = puntosVida;
+    }
+    
+    
+    
 }
